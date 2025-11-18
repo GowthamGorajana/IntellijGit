@@ -11,7 +11,7 @@ public class GitTestingProjectIntellijApplication {
 
 		ApplicationContext context = SpringApplication.run(GitTestingProjectIntellijApplication.class, args);
 		Student student =context.getBean(Student.class);
-		String result = student.greet();
+
 
 
 	}
